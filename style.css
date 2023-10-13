@@ -1,0 +1,131 @@
+@charset "UTF-8";
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: #D2E8F9;
+}
+
+.navbar-custom {
+    background-color: #D2E8F9;
+}
+
+#current-day {
+    transform: rotate(270deg);
+    letter-spacing: 3px;
+}
+
+/* Custom CSS for the sidebar */
+.sidebar {
+    margin: 10px;
+    border-radius: 20px;
+    /* height: 100vh; */
+    height: calc(100vh - 120px);
+    width: 250px;
+    /* position:fixed; */
+    top: 0;
+    left: 0;
+    background-color: #B4D9F4;
+    padding-top: 20px;
+    user-select: none;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+    display: block;
+    padding-left: 50px;
+    -webkit-user-drag: none;
+}
+
+.sidebar a:hover {
+    background-color: #D2E8F9;
+}
+
+/* Content styling */
+.content {
+    width: 100vi;
+    margin: 10px;
+    border-radius: 20px;
+    height: calc(100vh - 120px);
+}
+
+.icon {
+    padding-right: 355px;
+    position: fixed;
+    margin-left: -195px;
+    background-color: transparent;
+    width: 50px;
+    height: 40px;
+}
+
+/* search bar css */
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #B4D9F4;
+    border-radius: 20px;
+    width: 35rem;
+}
+
+/* Style for the search input */
+.search-container input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 15px;
+    outline: none;
+    font-weight: 500;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Style for the search button */
+#search-button {
+    border: none;
+    color: #B4D9F4;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+#search-button {
+    outline: none;
+    box-shadow: none;
+}
+
+.cards {
+    background-color: goldenrod;
+    height: 54px;
+    width: 200px;
+    padding: 0%;
+    margin: 0% ;
+    background-color: #B4D9F4;
+    border-radius: 20px;
+}
+#table-container{
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #B4D9F4;
+    /* background-color: aqua; */
+    overflow: hidden;
+    height: 73.5vh;
+}
+/* Add this CSS to make the table transparent */
+.table th,
+.table td {
+    background-color:#B4D9F4; /* You can adjust the alpha value (0.8) to control the transparency */
+}
+
+#bg{
+    background-color: transparent;
+}
+
+
+  
+
